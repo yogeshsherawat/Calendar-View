@@ -1,0 +1,40 @@
+.day{
+  border: 1px solid  black;
+  height: 200px;
+}
+.date-text{
+  font-weight: bolder;
+}
+.calendar-outer-div{
+
+  width:94%;
+  margin-left: 3%;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .rating-div{
+    font-size: 10px;
+  }
+  .calendar-outer-div{
+    width: 98%;
+    margin-left: 1%;
+  }
+}
+
+
+
+.checked{
+  color:orange;
+}
+.avatar{
+  height: auto;
+  width: 100%;
+}
+.img-container{
+  overflow: hidden;
+}
+.no-pads{
+  padding-left: 0px;
+  padding-right: 0px;
+}
